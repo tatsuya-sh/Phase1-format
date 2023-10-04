@@ -1,0 +1,45 @@
+header {
+    width: 1200px;
+    margin: 0;
+    display: flex;
+    color: black;
+    position: absolute;
+    z-index: 20;
+
+
+    .hd-logo {
+        font-size: 32px;
+        padding: 68px 20px 0 77px;
+    }
+
+
+    .navmenu {
+        text-align: left;
+        width: 390px;
+        font-size: 18px;
+        margin-top: 77px;
+
+
+
+
+
+
+        ul {
+            display: flex;
+            justify-content: space-between;
+            color: #707070;
+
+
+
+        }
+    }
+
+    .black-m {
+        color: black;
+        border-bottom: 1px solid;
+        width: 48px;
+    }
+
+
+
+}

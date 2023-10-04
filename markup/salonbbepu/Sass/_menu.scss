@@ -1,0 +1,53 @@
+#menu {
+    height: 920;
+}
+
+.title-menu {
+    display: flex;
+    align-items: center;
+    padding: 261px 0 11px 0px;
+    font-size: 18px;
+    font-family: 'Roboto';
+    color: #707070;
+    letter-spacing: 5.4px;
+
+    &::after {
+        display: inline-block;
+        content: "";
+        width: 99px;
+        margin-left: 22px;
+        border-top: 1px solid #707070;
+    }
+}
+
+.menu-wrap {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+
+}
+
+.menu-item {
+    width: 24.6%;
+}
+
+.menu-content {
+    padding: 37px 10px 0;
+
+    &__concept {
+        font-size: 30px;
+        font-family: 'Robot'
+    }
+
+    &__text {
+        font-size: 16px;
+        letter-spacing: 1.6px;
+        padding: 34px 0;
+    }
+
+    &__price {
+        font-size: 16px;
+        letter-spacing: 1.6px;
+        text-align: right;
+    }
+}

@@ -1,0 +1,52 @@
+#access {
+    background-color: #A193861F;
+    height: 757px;
+}
+
+.title-a {
+    display: flex;
+    align-items: center;
+    padding: 261px 0 11px 0;
+    font-size: 18px;
+    font-family: 'Roboto';
+    color: #707070;
+    letter-spacing: 5.4px;
+
+    &::after {
+        display: inline-block;
+        content: "";
+        width: 99px;
+        margin-left: 22px;
+        border-top: 1px solid #707070;
+    }
+}
+
+.access-wrap {
+    display: flex;
+    justify-content: space-between;
+    background-color: #D0C5BA;
+    width: 100vw;
+    margin: 0 calc(50% - 50vw)
+}
+
+.address-wrap {
+    padding: 101px 0 0 104px;
+}
+
+
+
+.add-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #00000038;
+    letter-spacing: 2.4px;
+}
+
+.add-tex {
+    width: 210px;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 1.3px;
+    line-height: 40px;
+    padding-top: 30px;
+}

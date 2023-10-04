@@ -1,4 +1,4 @@
-panel {
+#panel {
   width: 310px;
   height: 340px;
   overflow: hidden;
@@ -27,4 +27,8 @@ panel {
 .finish {
   opacity: 0;
   cursor: default;
+}
+#result{
+  font-size:1.2rem;
+  font-weight: bold;
 }

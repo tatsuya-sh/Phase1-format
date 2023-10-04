@@ -1,0 +1,458 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  font-weight: normal;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+nav,
+ul,
+li {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+a:visited {
+  color: inherti;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input,
+select {
+  vertical-align: middle;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  max-width: 1283px;
+}
+
+.inner {
+  width: 85%;
+  margin: 0 auto;
+}
+
+header {
+  width: 1200px;
+  margin: 0;
+  display: flex;
+  color: black;
+  position: absolute;
+  z-index: 20;
+}
+header .hd-logo {
+  font-size: 32px;
+  padding: 68px 20px 0 77px;
+}
+header .navmenu {
+  text-align: left;
+  width: 390px;
+  font-size: 18px;
+  margin-top: 77px;
+}
+header .navmenu ul {
+  display: flex;
+  justify-content: space-between;
+  color: #707070;
+}
+header .black-m {
+  color: black;
+  border-bottom: 1px solid;
+  width: 48px;
+}
+
+#first-v {
+  background-color: #FFFFFF;
+}
+
+.first-v__wrap {
+  display: flex;
+  height: 800px;
+}
+
+.catch {
+  display: inline-block;
+  top: 60%;
+  width: 47%;
+  height: 800px;
+  font-size: 32px;
+  font-family: serif;
+  padding-top: 296px;
+  text-align: center;
+}
+
+.catch-e {
+  display: inline-block;
+  width: 390px;
+  margin-top: 18%;
+  text-align: center;
+  font-family: "Zapfino", sans-serif;
+  font-size: 38px;
+}
+
+.first-img {
+  display: inline-block;
+}
+
+.first-img img {
+  width: 100%;
+  height: 100%;
+}
+
+#menu {
+  height: 920;
+}
+
+.title-menu {
+  display: flex;
+  align-items: center;
+  padding: 261px 0 11px 0px;
+  font-size: 18px;
+  font-family: "Roboto";
+  color: #707070;
+  letter-spacing: 5.4px;
+}
+.title-menu::after {
+  display: inline-block;
+  content: "";
+  width: 99px;
+  margin-left: 22px;
+  border-top: 1px solid #707070;
+}
+
+.menu-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+
+.menu-item {
+  width: 24.6%;
+}
+
+.menu-content {
+  padding: 37px 10px 0;
+}
+.menu-content__concept {
+  font-size: 30px;
+  font-family: "Robot";
+}
+.menu-content__text {
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  padding: 34px 0;
+}
+.menu-content__price {
+  font-size: 16px;
+  letter-spacing: 1.6px;
+  text-align: right;
+}
+
+#concept {
+  background: linear-gradient(180deg, rgba(161, 147, 134, 0.1215686275) 0%, rgba(161, 147, 134, 0.1215686275) 40%, rgba(161, 147, 134, 0.537254902) 40%, rgba(161, 147, 134, 0.537254902) 100%);
+  height: 970px;
+}
+
+.title-c {
+  display: flex;
+  align-items: center;
+  padding: 256px 0 11px 0;
+  font-size: 18px;
+  font-family: "Roboto";
+  color: #707070;
+  letter-spacing: 5.4px;
+}
+.title-c::after {
+  display: inline-block;
+  content: "";
+  width: 99px;
+  margin-left: 22px;
+  border-top: 1px solid #707070;
+}
+
+.concept-img {
+  display: flex;
+  justify-content: space-between;
+}
+
+.concept-text {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.catch-c {
+  width: 445px;
+  padding-top: 90px;
+  font-size: 40px;
+  font-family: serif;
+  letter-spacing: 16px;
+  margin-left: 80px;
+}
+
+.text-c {
+  width: 422px;
+  padding-top: 70px;
+  margin-right: 100px;
+  font-size: 16px;
+  letter-spacing: 1.5px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+#access {
+  background-color: rgba(161, 147, 134, 0.1215686275);
+  height: 757px;
+}
+
+.title-a {
+  display: flex;
+  align-items: center;
+  padding: 261px 0 11px 0;
+  font-size: 18px;
+  font-family: "Roboto";
+  color: #707070;
+  letter-spacing: 5.4px;
+}
+.title-a::after {
+  display: inline-block;
+  content: "";
+  width: 99px;
+  margin-left: 22px;
+  border-top: 1px solid #707070;
+}
+
+.access-wrap {
+  display: flex;
+  justify-content: space-between;
+  background-color: #D0C5BA;
+  width: 100vw;
+  margin: 0 calc(50% - 50vw);
+}
+
+.address-wrap {
+  padding: 101px 0 0 104px;
+}
+
+.add-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.2196078431);
+  letter-spacing: 2.4px;
+}
+
+.add-tex {
+  width: 210px;
+  font-size: 16px;
+  color: #fff;
+  letter-spacing: 1.3px;
+  line-height: 40px;
+  padding-top: 30px;
+}
+
+#footer {
+  height: 342;
+}
+
+.fot-wrap {
+  display: inline-block;
+  border-top: 1px solid rgba(112, 112, 112, 0.2117647059);
+  width: 80%;
+  margin-top: 165px;
+  padding-top: 84px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+}
+
+.shn {
+  font-size: 32px;
+  color: rgba(112, 112, 112, 0.3019607843);
+  letter-spacing: 3.2px;
+  margin-bottom: 60px;
+}
+
+.fa-brands {
+  font-size: 20px;
+  color: black;
+  padding-left: 25px;
+  padding-right: 5px;
+  width: 20px;
+  height: 19px;
+}
+
+.res {
+  display: inline-block;
+  padding: 10px 40px;
+  margin-bottom: 60px;
+  border: 1px solid #707070;
+  font-size: 18px;
+  letter-spacing: 1.8px;
+}/*# sourceMappingURL=main.css.map */

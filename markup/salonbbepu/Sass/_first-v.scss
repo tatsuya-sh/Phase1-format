@@ -1,0 +1,43 @@
+#first-v {
+    background-color: #FFFFFF;
+
+}
+
+.first-v__wrap {
+    display: flex;
+    height: 800px;
+}
+
+
+.catch {
+    display: inline-block;
+    top: 60%;
+    width: 47%;
+    height: 800px;
+    font-size: 32px;
+    font-family: serif;
+    padding-top: 296px;
+    text-align: center;
+
+}
+
+.catch-e {
+    display: inline-block;
+    width: 390px;
+    margin-top: 18%;
+    text-align: center;
+    font-family: 'Zapfino', sans-serif;
+    font-size: 38px;
+
+
+
+}
+
+.first-img {
+    display: inline-block;
+}
+
+.first-img img {
+    width: 100%;
+    height: 100%;
+}
